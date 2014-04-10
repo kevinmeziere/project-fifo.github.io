@@ -2,13 +2,13 @@
 layout: default
 category: jingles
 section: jingles/usermanagement
-title: Jingles Usermanagement
+title: Jingles User Management
 ---
-# Jingles Usermanagement
+# Jingles User Management
 
 ## Users<href id="users"></a>
 
-### list view
+### List view
 
 ![](/assets/img/jingles/users01.png)
 
@@ -17,9 +17,9 @@ The default list view shows you a list of users that already exist in the system
 - **Name** The users name.
 - **Groups**  The groups the user belongs to.
 
-Clicking on the hyperlinked users name will take you to the users detail page as explained in a subsection below.
+Clicking on a hyperlinked username will take you to the user's detail page as explained in a subsection below.
 
-### creation
+### Creation
 
 To create a user click on the ![add user](/assets/img/jingles/users-add.png) button.
 
@@ -29,7 +29,7 @@ This will take you to the new user creation page as shown below.
 
 Enter a username for your new user and please note that usernames are case sensitive. Enter a password for your new user by typing in the password twice. Only if the 2 passwords are identical will the "create" button appear. To complete user creation click on the create button.
 
-### details
+### Details
 
 Clicking on an individual hyperlinked user name will take you to the user details page.
 
@@ -60,9 +60,12 @@ The groups section allows you to add users to certain pre-existing groups. Users
 
 You can add your own ssh public key to your user profile by simply pasting in your key and clicking the save button. This will be used when the user creates a new machine and FiFo will automatically add the users key to the machines authorized_keys file. You should then be able to authenticate your ssh session without requiring password entry.
 
+#### YubiKeys
+TODO
+
 ## Groups<href id="groups"></a>
 
-### list view
+### List view
 
 ![](/assets/img/jingles/groups01.png)
 
@@ -70,7 +73,7 @@ The "Groups" section is very similar to the "users" section and is the place wit
 
 To edit an existing group simply click on the groups name hyperlink. This will take you to the group details section.
 
-### creation
+### Creation
 
 To add a new group click on the "add group" button.
 
@@ -78,7 +81,7 @@ To add a new group click on the "add group" button.
 
 Enter a name for your new group and click on the "create" button.
 
-### details
+### Details
 
 To edit a group click on the group name hyperlink in the group list view.
 
