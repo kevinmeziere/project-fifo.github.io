@@ -15,7 +15,7 @@ When you first connect to the web interface via a web browser you will be presen
 Enter your valid credentials and click the "Ok" button to authenticate and login to the web interface.
 
 <p class="bs-callout bs-callout-info">
-The little green dot in the top right corner, noted by the information icon, shows that the web interface is successfully communicating with and connected to the backend. Should the web interface not be connected to the backend the dot will change to red and show an error message.
+The little green dot in the top right corner, pointed to by the red arrow, shows that the web interface is successfully communicating with and connected to the backend. Should the web interface not be connected to the backend the dot will change to red and show an error message.
 </p>
 
 ## Dashboard
@@ -26,10 +26,10 @@ The dashboard is designed to give you a 10 thousand foot view or single pane of 
 
 The status page is designed to show you an overview of your entire clouds status.
 
-1. The header above the guages reflects the health of your cloud. A green header indicates that your cloud is healthy. When red, FiFo has detected a problem such as a compute node becoming unavailable or one of the monitored cloud metrics moving below or above a safety threshold.
-2. The "memory guage" shows the percentage of used memory across your entire cloud. Please Note: FiFo includes memory allocated for both running and stopped virtual machines in the total percentage.
-3. The "disk guage" shows the percentage of disk storage used across your entire cloud.
-4. Shows a quick overview of how many virtual machines exist in your cloud as well as the number, users, and of hypervisors (compute servers) that make up your cloud.
+1. The graphic as shown "green tick" symbol reflects that your cloud is healthy, this image will change to a red symbol should fifo detect a problem such as a compute node becoming unavailable or one of the monitored cloud metrics moving below or above a safety threshold.
+2. The "memory bar" shows the percentage of used memory across your entire cloud. Please Note: fifo includes memory allocated for both running and stopped virtual machines in the total percentage.
+3. The "disk bar" shows the percentage of disk storage used across your entire cloud.
+4. Shows a quick overview of how many virtual machines exist in your cloud as well as the number of hypervisors (compute servers) that make up your cloud.
 
 ## Cloudview
 
